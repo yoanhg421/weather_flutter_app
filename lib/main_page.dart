@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:fl_chart/fl_chart.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:weather_flutter_app/constants.dart';
 
 class MainPage extends StatefulWidget {
   static String routeName = '/';
@@ -40,7 +41,10 @@ class _MainPageState extends State<MainPage> {
                 children: [
                   Text("Today"),
                   Text("Sat, 3 Feb"),
-                  Text('28˚c'),
+                  Text(
+                    '28˚',
+                    style: kTempBig,
+                  ),
                   Text('Barcelona, Spain'),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
@@ -48,9 +52,9 @@ class _MainPageState extends State<MainPage> {
                       Text('Feels like 32'),
                       Container(
                         margin: EdgeInsets.symmetric(horizontal: 10),
-                        child: Text('*'),
+                        child: Text('•'),
                       ),
-                      Text('Sunset 20:04'),
+                      Text('Sunset 8:04PM'),
                     ],
                   ),
                   Row(
