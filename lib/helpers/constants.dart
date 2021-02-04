@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+const kAPIKey = 'Your API key here';
 const kAPIURL = 'https://api.openweathermap.org/data/2.5/onecall';
 
 const TextStyle kWeatherBig = TextStyle(
