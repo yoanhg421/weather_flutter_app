@@ -19,9 +19,9 @@ class MyApp extends StatelessWidget {
         ),
         textTheme: TextTheme(
           bodyText2: TextStyle(
-            fontWeight: FontWeight.bold,
-            fontSize: 18,
-          ),
+              fontWeight: FontWeight.normal,
+              fontSize: 15,
+              color: Color(0xFFACACBA)),
         ),
       ),
       initialRoute: MainPage.routeName,
